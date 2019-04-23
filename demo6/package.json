@@ -1,0 +1,18 @@
+{
+  "name": "hsr.wed1.samples.ajax1_hbs-demo",
+  "version": "0.1.0",
+  "description": "",
+  "main": "server.js",
+  "license": "SEE LICENSE IN README.md",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IFS-Web/HSR.WED1.Samples.AJAX1.git"
+  },
+  "dependencies": {
+    "express": "^4.10.8",
+    "express-session": "^1.16.1"
+  }
+}

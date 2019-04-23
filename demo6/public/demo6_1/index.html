@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Team Counter Simple SPA</title>
+
+		<link rel="stylesheet" href="../styles/main.css" type="text/css">
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.min.js"></script>
+
+		<script id="music-list-template" type="text/x-handlebars-template">
+			<div>
+				<h3>Thank you for the music</h3>
+				<p>ABBA</p>
+			</div>
+		</script>
+		
+
+		<script>
+			function renderIndexView() {
+				// TODO: Demo 6.1
+				//  - get element from 'music-list-template'
+				//  - complie with Handlebars
+				//  - fill container 'music-list'
+			}
+
+			document.addEventListener(
+				'DOMContentLoaded',
+				() => renderIndexView());
+		</script>
+	</head>
+	<body>
+		<h1>My Simple Music Collection</h1>
+		<div id="music-list"></div>
+	</body>
+</html>

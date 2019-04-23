@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Team Counter Simple SPA</title>
+
+		<link rel="stylesheet" href="../styles/main.css" type="text/css">
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.min.js"></script>
+		<script src="scripts/bl.js" defer></script>
+		<script src="scripts/index-controller.js" defer></script>
+
+		<script id="music-list-template" type="text/x-handlebars-template">
+			{{#each this}}
+			<div>
+				<h3>{{title}}</h3>
+				<p>{{artist}}</p>
+			</div>
+			{{/each}}
+		</script>
+		
+
+		<script>
+			const boostrapper = {
+				start() {
+					document.addEventListener(
+						'DOMContentLoaded',
+						() => indexAction());
+				}
+			}
+			boostrapper.start();
+		</script>
+	</head>
+	<body>
+		<h1>My Simple Music Collection</h1>
+		<div id="music-list"></div>
+	</body>
+</html>
