@@ -24,8 +24,8 @@ server.route('/api/music')
 				"title": "Imagine"
 			},
 			{
-				"artist": "Marvin Gaye",
-				"title": "What's Going On"
+				"artist": "Deep Purple",
+				"title": "Smoke On The Water"
 			},
 			{
 				"artist": "Aretha Franklin",

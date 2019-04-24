@@ -11,12 +11,14 @@
 		<script src="scripts/index-controller.js" defer></script>
 
 		<script id="music-list-template" type="text/x-handlebars-template">
+			<ul>
 			{{#each this}}
-			<div>
-				<h3>{{title}}</h3>
-				<p>{{artist}}</p>
-			</div>
+				<li>
+					<h3>{{title}}</h3>
+					<p>{{artist}}</p>
+				</li>
 			{{/each}}
+			</ul>
 		</script>
 		
 
@@ -27,7 +29,7 @@
 						'DOMContentLoaded',
 						() => indexAction());
 				}
-			}
+			};
 			boostrapper.start();
 		</script>
 	</head>

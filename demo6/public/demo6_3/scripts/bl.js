@@ -5,6 +5,6 @@ const musicService = {
         const response = await fetch(BASE_URL);
         return await response.json();
     }
-}
+};
 
 
