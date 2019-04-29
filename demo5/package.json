@@ -3,7 +3,7 @@
   "version": "0.2.1",
   "private": true,
   "scripts": {
-    "start": "node --experimental-modules 05_demo.mjs"
+    "start": "node 05_demo.js"
   },
   "dependencies": {},
   "devDependencies": {

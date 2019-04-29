@@ -1,6 +1,4 @@
-import {default as fs} from 'fs';
-
-const fileSystem = fs.promises;
+const fileSystem = require('fs').promises;
 
 function openRead() {
     const fileHandle = fileSystem.readFile('./toRead.txt', {encoding: 'utf-8'});
